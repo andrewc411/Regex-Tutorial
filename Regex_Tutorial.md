@@ -16,9 +16,11 @@ This is the regular expression used to ensure that the email matches. This tutor
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+By putting a '/' at the beginning and end of a regex you make it a literal.
 
 ### Anchors
-
+The characters ^ and $ are both considered to be anchors. The ^ is used at the start of the regex and signifies a string that begins with the characters that follow it. The $ is used at the end of the regex and signifies a string that ends with the characters that precede it.
+ 
 ### Quantifiers
 
 ### Grouping Constructs
