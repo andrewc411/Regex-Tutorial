@@ -22,7 +22,7 @@ By putting a '/' at the beginning and end of a regex you make it a literal.
 The characters ^ and $ are both considered to be anchors. The ^ is used at the start of the regex and signifies a string that begins with the characters that follow it. The $ is used at the end of the regex and signifies a string that ends with the characters that precede it.
  
 ### Quantifiers
-
+Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. Ordinarily, quantifiers are greedy; they cause the regular expression engine to match as many occurrences of particular patterns as possible. Appending ? to a quantifier makes it lazy; it causes the regular expression engine to match as few occurrences as possible. They appear in curly brackets as {2,6}. 2 would be the minimum number and 6 the maximum number that the regex should look for. Another quantifier in this expression is the + which combines the parts of the email together.
 ### Grouping Constructs
 
 ### Bracket Expressions
