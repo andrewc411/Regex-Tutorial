@@ -26,9 +26,9 @@ Quantifiers specify how many instances of a character, group, or character class
 ### Grouping Constructs
 The primary way you group a section of a regex is by using parentheses. Each section within parentheses is known as a subexpression. And the pairing of separate subexpressions in a regex is known as grouping constructs.
 ### Bracket Expressions
-Anything inside brackets that represents a range of characters that we want to match are known as bracket expressions. They are also known as a positive character group, because they outline the characters we want to include. Bracket expressions can be turned into negative character roups by add a ^ to the beginning of the expression. In this case, all charcters "a" through "z", numbers "0" through "9", and the characters "_.-" are accepted. Using hyphen between the letter and the numbers signify the range of the letters and numbers.
+Anything inside brackets that represents a range of characters that we want to match are known as bracket expressions. They are also known as a positive character group, because they outline the characters we want to include. Bracket expressions can be turned into negative character roups by add a ^ to the beginning of the expression. In this case, all charcters "a" through "z", numbers "0" through "9", and the characters "_.-" are accepted. Using hyphens between the letter and the numbers signify the range of the letters and numbers.
 ### Character Classes 
-
+When using \d for the matching email this character class will match one character from any numeral digit 0-9.
 ### Character Escapes
 
 ## Author
