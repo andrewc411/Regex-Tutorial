@@ -24,8 +24,8 @@ The characters ^ and $ are both considered to be anchors. The ^ is used at the s
 ### Quantifiers
 Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. Ordinarily, quantifiers are greedy; they cause the regular expression engine to match as many occurrences of particular patterns as possible. Appending ? to a quantifier makes it lazy; it causes the regular expression engine to match as few occurrences as possible. They appear in curly brackets as {2,6}. 2 would be the minimum number and 6 the maximum number that the regex should look for. Another quantifier in this expression is the + which combines the parts of the email together.
 ### Grouping Constructs
-The primary way you group a section of a regex is by using parentheses. Each section within parentheses is known as a subexpression. And the pairing of separate subexpressions in a regex is known as grouping constructs.
-```([a-z0-9_\.-]+)```([\da-z\.-]+)```([a-z\.]{2,6})```
+The primary way you group a section of a regex is by using parentheses. Each section within parentheses is known as a subexpression. And the pairing of separate subexpressions in a regex is known as grouping constructs.<br>
+```([a-z0-9_\.-]+)``````([\da-z\.-]+)``````([a-z\.]{2,6})```
 ### Bracket Expressions
 
 ### Character Classes
