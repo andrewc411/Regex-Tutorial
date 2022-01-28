@@ -33,4 +33,3 @@ When using \d for the matching email this character class will match one charact
 The back slash \ in a regex is a character escape, which signifies a charcter that is not to be taken literally. A period in a regex would match any character except the newline character (/n) but when matching an email "." it just means to look for a period.
 ## Author
 Andrew Carroll is a software developer that is enrolled in Georgia Tech's Full Stack Web Dev Bootcamp. You can visit his GitHub profile here: https://github.com/andrewc411
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
